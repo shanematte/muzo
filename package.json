@@ -1,0 +1,41 @@
+{
+  "name": "muzo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.2",
+    "axios": "^0.16.2",
+    "link": "^0.1.5",
+    "moment": "^2.20.1",
+    "react-native-adjust": "^4.12.3",
+    "react-native-appodeal": "^2.1.5",
+    "react-native-fbsdk": "^0.6.3",
+    "react-native-onesignal": "^3.1.2",
+    "react-native-orientation": "^3.1.3",
+    "react-native-push-notification": "^3.0.0",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-swiper": "^1.5.11",
+    "react-native-video": "^2.0.0",
+    "react-navigation": "v1.0.0-beta.26",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-persist": "^4.8.3",
+    "redux-thunk": "^2.2.0",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
